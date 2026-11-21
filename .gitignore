@@ -1,0 +1,21 @@
+# Never commit VM state or local secret-bearing training artifacts
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.vbox
+*.vbox-prev
+*.pcap
+*.pcapng
+*.key
+*.pem
+*.p12
+*.kdbx
+*.save
+*.bak
+*.zip
+*.mp4
+.env
+.env.*
+screenshots/raw/
+evidence/raw/
